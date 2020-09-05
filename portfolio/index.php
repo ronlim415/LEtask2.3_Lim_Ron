@@ -37,7 +37,7 @@
       </aside>
     </div>
     <footer id="Footer">
-      <p>Copyright &copy; TRIAL WEBSITE</p>
+      <p>Copyright &copy; GENERIC COMPANY</p>
     </footer>
 </body>
 </html>
