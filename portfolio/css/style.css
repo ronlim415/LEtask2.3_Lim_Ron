@@ -1,0 +1,124 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  margin: 0px;
+  padding: 0;
+}
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+#mainHeader{
+  background: #333;
+}
+h2{
+  color: rgb(15, 15, 9);
+  font-family: sans-serif;
+  text-align: center;
+}
+#mainNav{
+  background: #cccccc;
+  color: black;
+}
+#mainNav ul{
+  padding: 0;
+  margin: 0px;
+  list-style: none;
+}
+#mainNav li{
+  display: inline;
+  padding: 5px 10px;
+}
+#mainNav li:hover{
+  background: #aaa;
+}
+#mainNav a{
+  color: rgb(60, 176, 230)
+  text-decoration: none;
+  font-size: 18px;
+}
+#kwago{
+  background-image: url(../images/pills.jpg);
+  background-position: center;
+  min-height: 215px;
+  text-align: center;
+  border: 0px ;
+}
+#sidebar{
+  float: left;
+  width: 30%;
+  padding: 10px;
+  border-right: 2px solid black;
+  box-sizing: border-box;
+  }
+#Footer{
+  background: #333333;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 148px;
+}
+.logo{
+  position:absolute;
+  top: 52%;
+  left: 59%;
+  transform: translate(-50,-50);
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: #ffffff;
+  border-top: 50px solid  #4285f4;
+  border-right: 50px solid #4285f4;
+  border-bottom: 50px solid #4285f4;
+  border-left: 50px solid #4285f4;
+}
+.logo::before{
+  content: '';
+  position: absolute;
+  top: -156px;
+  right: -155px;
+  border-top: 100px solid transparent;
+  border-right: 100px solid #ffffff;
+  border-bottom: 100px solid transparent;
+  border-left: 100px solid transparent;
+  transform: rotate(90deg);
+}
+.logo::after{
+  content: '';
+  position: absolute;
+  top:50%;
+  right: -50px;
+  width: 100px;
+  height: 50px;
+  background: #4285f4;
+  transform: translate(-3px,-22px);
+}
+h1{
+  color: #4285f4;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+.circle{
+  position:absolute;
+  top: 0%;
+  left: 12%;
+  transform: translate(-50,-50);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #0d5f8f;
+}
+.circle1{
+  position:absolute;
+  top: 0%;
+  left: 12%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #9bc8e2;
+}
+.circle1{
+  transform: scale(0.7);
+}
